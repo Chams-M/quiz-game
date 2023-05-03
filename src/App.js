@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import 'fontsource-roboto';
 import './App.css';
+import React from 'react'
+import Hero from './routes/components/Presentational/Hero/Hero';
+import SideBar from './routes/components/Presentational/SideBar/SideBar';
+import Profile from './routes/components/Presentational/Profile/Profile';
+import Navbar from './routes/components/Presentational/NavBar/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <SideBar/>
+      <div className='content'>
+      <Navbar/>
+      <div className='appglass'>
+        <Profile/>
+      </div>
+      </div>
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+

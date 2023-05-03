@@ -1,0 +1,45 @@
+.userBar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 30px;
+   
+   }
+.barItem{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.barItem>div>span:nth-of-type(1){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:#6f7d88d8;
+}
+.barItem>div>span:nth-of-type(2){
+    font-size: 13px;
+    
+}
+
+   .barInfo{
+    display: flex;
+    flex-direction: column;
+    gap:4px
+
+   }
+.icon-cont{
+    color: #6f7d88d8;
+    background-color: white;
+    border-radius: 10px;
+    height:40px;
+    width:40px;
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    width:20px;
+    height:20px
+}

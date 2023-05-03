@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    display:flex;
+    flex-direction: row;
+    
+  
+    width: 100%;
+    height: 15rem;
+    padding-top: 10px;
+    row-gap: 40px;
+
+}
+.user-image{
+    padding: 20px 20px;
+    height:180px;
+    width:200px;
+    border-radius: 50px;
+}
+.user-infos{
+   flex:2;
+   flex-direction: column;
+   margin-top: 30px;
+   
+}
+
+.user-infos>div:first-child{
+    font-size: 1.5rem;
+    font-weight:bold;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+    color: #6f7d88d8;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    margin-left: 2rem;
+    width: 45%;
+  
+}
+.card>span:first-child{
+    font-size: 1rem;
+    font-weight:bold;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+    color: #6f7d88d8;
+}
+.card>span:nth-child(2){
+    color: #6f7d88d8 ;
+    font-size: 0.7rem ;
+    float: right ;
+}
+.grid{
+    border-radius: 20px;
+    height:15rem;
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+   
+}
+
+.achievements{
+background-color: white;
+width: 100%;
+}
+.category{
+    background-color: red;
+    width: 100%;
+}
+
+.percentage-line{
+    margin-top: 2rem;
+    background-color: #d3dbe0;
+    width: 70%;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    
+}
+.percentage-line>div{
+    position: absolute;
+    background-color: #6f7d88d8;
+    width:15rem;
+    height:100%;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.percentage-line2{
+    margin-top: 1rem;
+    background-color: #50a8df;
+    width: 30%;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    float: right;
+    
+}
+.percentage-line2>div{
+    position: absolute;
+    background-color: #6f7d88d8;
+    width:4rem;
+    height:100%;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.icon-img{
+    height:60px;
+    width:60px;
+}
+
+.achievements>div>img:last-child{
+    padding-left: 70px;
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon-item>span{
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
